@@ -3,7 +3,14 @@ MiniServerBox
 
 Home Page for Mini Server Box
 
+## sudo apt-get install mysql-server mysql-client 
 ## sudo apt-get install libmysqlclient-dev 
+
+## sudo apt-get install postgresql
+## sudo apt-get install pgadmin3
+ 
+
+## sudo apt-get install libpq-dev 
 
 ## rails new ShowEnvSqlite  
 ## rails new ShowEnvMysql -d mysql  
