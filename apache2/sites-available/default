@@ -1,12 +1,12 @@
 <VirtualHost *:3080>
         ServerAdmin webmaster@localhost
 
-        DocumentRoot /home/picuntu/workspace/helpbook
+        DocumentRoot /home/ma/worksapce/wvMiniServerBox
         <Directory />
                 Options FollowSymLinks
                 AllowOverride All
         </Directory>
-        <Directory /home/picuntu/workspace/helpbook/>
+        <Directory /home/ma/worksapce/wvMiniServerBox/>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny

@@ -1,0 +1,14 @@
+.topic_add_items {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+input[type=radio] {
+    margin:0px;
+    width:20px;
+}
+
+.topic_category_radio label{ 
+	display: inline-block;
+}
