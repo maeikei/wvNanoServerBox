@@ -37,20 +37,6 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
-
-	
-	public function beforeFilter(){
-		$OAuthLogin = $this->Session->read('oauth_login_name');
-		debug($OAuthLogin);
-		if($OAuthLogin) {
-			$this->set('user_name', $OAuthLogin);
-			$this->set('log_url', $this->Html->link('ログアウト', array('controller' => 'register', 'action' => 'index')));
-		}
-		else {
-			$this->set('user_name', 'ゲストさん');
-			$this->set('log_url', $this->Html->link('ログイン', array('controller' => 'register', 'action' => 'index')));
-		}
-	}	
 /**
  * Displays a view
  *
@@ -60,8 +46,6 @@ class PagesController extends AppController {
  *	or MissingViewException in debug mode.
  */
 	public function display() {
-	
-		beforeFilter();
 		$path = func_get_args();
 
 		$count = count($path);

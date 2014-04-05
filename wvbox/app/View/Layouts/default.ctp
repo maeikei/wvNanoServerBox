@@ -23,12 +23,14 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		HelpBook:<?php echo $user_name; ?>
+		<?php echo $cakeDescription ?>:
+		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
+
 		echo $this->Html->css('cake.generic');
-		echo $this->Html->script('google.analytics');
+
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -37,47 +39,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<div id="header_navi">
-				<div class="header_navi_items">
-					<?php
-						echo $this->Html->image("home.icon.jpg",
-							array('url' => array('controller' => 'home', 'action' => 'index'))
-							);
-					?>
-				</div>
-				<div class="header_navi_items">
-					<?php
-						echo $this->Html->image("notification.icon.jpg",
-							array('url' => array('controller' => 'notification', 'action' => 'index'))
-							);
-					?>
-				</div>
-				<div class="header_navi_items">
-					<?php
-						echo $this->Html->image("search.icon.jpg",
-							array('url' => array('controller' => 'search', 'action' => 'index'))
-							);
-					?>
-				</div>
-			</div>
-			<div id="header_accout">
-				<div class="header_accout_items">
-					<?php
-						echo $this->Html->image("plus.icon.jpg",
-							array('url' => array('controller' => 'topic', 'action' => 'add'))
-							);
-					?>
-				</div>
-				<div class="header_accout_items">
-					<?php echo $user_name; ?>
-				</div>
-				<div class="header_accout_items">
-					<?php echo $this->Html->link($log_action,$log_url); ?>
-				</div>
-			</div>
+			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
 		</div>
 		<div id="content">
+
 			<?php echo $this->Session->flash(); ?>
+
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">

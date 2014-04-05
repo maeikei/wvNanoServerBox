@@ -97,25 +97,6 @@ p {
 	background: #003d4c;
 	text-decoration: underline;
 }
-
-#header_navi{
-	float:left;
-}
-
-.header_navi_items{
-	float:left;
-	padding: 0px 10px;
-}
-
-#header_accout{
-	float:right;
-	padding: 0px 10px;
-}
-.header_accout_items{
-	float:left;
-	padding: 0px 10px;
-}
-
 #content{
 	background: #fff;
 	clear: both;
@@ -123,7 +104,6 @@ p {
 	padding: 10px 20px 40px 20px;
 	overflow: auto;
 }
-
 #footer {
 	clear: both;
 	padding: 6px 10px;

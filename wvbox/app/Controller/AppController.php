@@ -31,22 +31,4 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-	public function beforeFilter(){
-		$OAuthLogin = $this->Session->read('oauth.login.name');
-//		debug($OAuthLogin);
-		if($OAuthLogin) {
-			$this->set('user_name', $OAuthLogin);
-			$this->set('log_action', 'ログアウト');
-			$this->set('log_url',array('controller' => 'home', 'action' => 'logout') );
-		}
-		else {
-			$this->set('user_name', 'ゲストさん');
-			$this->set('log_action', 'ログイン');
-			$this->set('log_url',array('controller' => 'register', 'action' => 'index') );
-		}
-	}
-	public function logout() {
-		$this->Session->delete('oauth.login.name');
-		$this->redirect(array('controller' => 'home', 'action' => 'index'));
-	}
 }

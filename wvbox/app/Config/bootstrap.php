@@ -105,9 +105,3 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
-
-CakePlugin::loadAll();
-CakePlugin::load('DebugKit');
-CakePlugin::load('Mongodb');
-
-
