@@ -16,5 +16,5 @@ Home Page for Mini Server Box
 ## rails new ShowEnvMysql -d mysql  
 ## rails new ShowEnvPostgresql -d postgresql  
 
-
+## psql -h 192.168.0.7 -U wvbox -d wvbox_db
 
