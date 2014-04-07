@@ -1,7 +1,30 @@
 @charset "utf-8";
+#top_index_content {
+	/*border: 1px solid #0000ff;*/
+	overflow:auto;
+}
+#top_index_guild {
+	float:left;
+	overflow:auto;
+	/*border: 1px solid #00ff00;*/
+}
+#top_index_image {
+	float:left;
+	overflow:auto;
+	/*border: 1px solid #ff0000;*/
+}
+
 .top_index_special {
 	margin-left:15px;
 }
 .top_index_special_details {
 	margin-left:30px;
+}
+#top_index_statement {
+	/*position:relative;*/
+	/*border: 1px solid #ffff00;*/
+}
+#top_index_statement h2 {
+	text-align: center;
+	/*border: 1px solid #ff00ff;*/
 }
