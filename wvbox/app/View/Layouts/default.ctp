@@ -23,8 +23,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
+		WatorVapor Pico Server Box
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -39,7 +38,34 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<div id="header_left_navi">
+				<div class="header_navi_left_items">
+					<?php
+						echo $this->Html->image("home.icon.jpg",
+							array('url' => array('controller' => 'top', 'action' => 'index'))
+							);
+					?>
+				</div>
+				<div class="header_navi_left_items">
+					<?php
+						echo $this->Html->image("notification.icon.jpg",
+							array('url' => array('controller' => 'top', 'action' => 'index'))
+							);
+					?>
+				</div>
+				<div class="header_navi_left_items">
+					<?php
+						echo $this->Html->image("search.icon.jpg",
+							array('url' => array('controller' => 'top', 'action' => 'index'))
+							);
+					?>
+				</div>
+			</div>
+			<div id="header_center_navi">
+				<div class="header_navi_center_items">
+					Pico サーバーボックス
+				</div>
+			</div>
 		</div>
 		<div id="content">
 
