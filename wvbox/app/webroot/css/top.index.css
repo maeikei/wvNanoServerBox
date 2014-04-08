@@ -11,6 +11,7 @@
 #top_index_image {
 	float:left;
 	overflow:auto;
+	margin-left:30px;
 	/*border: 1px solid #ff0000;*/
 }
 
