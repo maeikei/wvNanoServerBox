@@ -16,7 +16,7 @@
 			<h4 class="top_index_special_details">８GBバイトフラッシュ領域。</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('試し', true), array('controller' => 'tryLinux', 'action' => 'index'), array());
+					echo $this->Html->link(__('サンプル機の情報', true), array('controller' => 'tryLinux', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>
@@ -25,7 +25,14 @@
 			<h4 class="top_index_special_details">ソーシャルネットより技術サーポート。</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('初期設定', true), 'http://www.cakephp.org/',array('target' => '_blank', 'escape' => false));
+					echo $this->Html->link(__('サンプル機パッケージリスト', true), array('controller' => 'showPackage', 'action' => 'index'), array());
+				?>
+			</h4>
+		</h3>
+		<h3 class="top_index_special">クイックガイドライン
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('初期設定', true), array('controller' => 'factorySetting', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>

@@ -27,8 +27,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-
 		echo $this->Html->css('wvbox.generic');
+		echo $this->Html->script('google.analytics',array('inline' => false));
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -63,7 +63,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			</div>
 			<div id="header_center_navi">
 				<div class="header_navi_center_items">
-					Pico サーバーボックス
+					<h3>PICOサーバーボックス</h3>
 				</div>
 			</div>
 		</div>
