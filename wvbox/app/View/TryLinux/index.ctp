@@ -3,6 +3,15 @@
 <h2>
 <pre>
 <?php 
+	echo `lsb_release -a`;
+?>
+</pre>
+</h2>
+
+
+<h2>
+<pre>
+<?php 
 	echo `uname -a`;
 ?>
 </pre>
