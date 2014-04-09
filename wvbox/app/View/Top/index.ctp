@@ -1,12 +1,9 @@
 <?php echo $this->Html->css('top.index'); ?> 
 
-<div id="top_index_summary">
-	<h3>PICOサーバーボックス</h3>
-</div>
 
 <div id="top_index_content">
 	<div id="top_index_guild">
-		<h3 class="top_index_special">ECO
+		<h3 class="top_index_special">エコ
 			<h4 class="top_index_special_details">
 				平均消費電力は２～３ワット。
 			</h4>
@@ -14,7 +11,7 @@
 				一日のコストは１～２円ぐらい。
 			</h4>
 		</h3>
-		<h3 class="top_index_special">PICOでも高性能
+		<h3 class="top_index_special">ナノ＋高性能
 			<h4 class="top_index_special_details">クアッドコア1.6 GHZプロセス。</h4>
 			<h4 class="top_index_special_details">２GBバイトDDR３。</h4>
 			<h4 class="top_index_special_details">８GBバイトフラッシュ領域。</h4>

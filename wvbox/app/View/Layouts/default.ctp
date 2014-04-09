@@ -40,6 +40,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="header">
 			<div id="header_left_navi">
 				<div class="header_navi_left_items">
+					<h3>塵（ちり）</h3>
+				</div>
+				<div class="header_navi_left_items">
+					<h3>ナノARMサーバー</h3>
+				</div>
+				<div class="header_navi_left_items">
 					<?php
 						echo $this->Html->image("home.icon.jpg",
 							array('url' => array('controller' => 'top', 'action' => 'index'))
@@ -62,9 +68,6 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				</div>
 			</div>
 			<div id="header_center_navi">
-				<div class="header_navi_center_items">
-					<h3>PICOサーバーボックス</h3>
-				</div>
 			</div>
 		</div>
 		<div id="content">
