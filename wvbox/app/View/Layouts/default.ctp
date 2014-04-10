@@ -23,7 +23,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		WatorVapor Pico Server Box
+		塵（ちり）ナノARMサーバー
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
