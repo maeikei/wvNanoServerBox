@@ -23,7 +23,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		塵（ちり）ナノARMサーバー
+		ナノARMサーバー　塵（ちり）
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
@@ -40,10 +40,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="header">
 			<div id="header_left_navi">
 				<div class="header_navi_left_items">
-					<h3>塵（ちり）</h3>
+					<h3>ナノARMサーバー</h3>
 				</div>
 				<div class="header_navi_left_items">
-					<h3>ナノARMサーバー</h3>
+					<h3>塵（ちり）</h3>
 				</div>
 				<div class="header_navi_left_items">
 					<?php
