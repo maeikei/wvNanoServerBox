@@ -1,0 +1,12 @@
+@charset "utf-8";
+.shop_list {
+	text-align: center;
+}
+.shop_list a {
+}
+.shop_list a  img{
+	margin-top:10px;
+	width:150px;
+	height:150px;
+	/*border: double 1px #0000ff;*/
+}

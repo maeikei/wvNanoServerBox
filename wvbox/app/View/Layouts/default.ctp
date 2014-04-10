@@ -52,22 +52,17 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 							);
 					?>
 				</div>
-				<div class="header_navi_left_items">
-					<?php
-						echo $this->Html->image("notification.icon.jpg",
-							array('url' => array('controller' => 'top', 'action' => 'index'))
-							);
-					?>
-				</div>
-				<div class="header_navi_left_items">
-					<?php
-						echo $this->Html->image("search.icon.jpg",
-							array('url' => array('controller' => 'top', 'action' => 'index'))
-							);
-					?>
-				</div>
 			</div>
 			<div id="header_center_navi">
+			</div>
+			<div id="header_right_navi">
+				<div class="header_navi_right_items">
+					<?php
+						echo $this->Html->image("order.icon.jpg",
+							array('url' => array('controller' => 'orderEntry', 'action' => 'index'))
+							);
+					?>
+				</div>
 			</div>
 		</div>
 		<div id="content">
