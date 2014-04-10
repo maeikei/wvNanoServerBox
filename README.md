@@ -1,5 +1,4 @@
-ナノARMサーバー  
-ニックネームは塵（ちり）
+ナノARMサーバー。塵（ちり）
 =============
 
 ## sudo apt-get install mysql-server mysql-client 
