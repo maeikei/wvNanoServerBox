@@ -62,6 +62,16 @@
 					echo $this->Html->link(__('Cakephpサーバー', true), array('controller' => 'cakephp', 'action' => 'index'), array());
 				?>
 			</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('nginxロードバランスのアプリケーションノード', true), array('controller' => 'loadBlance', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('ダイナミックDNSのIP自動更新', true), array('controller' => 'dynamicDNS', 'action' => 'index'), array());
+				?>
+			</h4>
 		</h3>
 	</div>
 	<div id="top_index_image">
@@ -142,6 +152,13 @@
 			echo $this->Html->link(
 				$this->Html->image('wvbox.linux.ubuntu.pico',array('width'=>'120','height'=>'90')),
 				'/img/wvbox.linux.ubuntu.mini',
+				array('escape' => false)
+			);
+		?>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('wvbox.loadblance.pico',array('width'=>'120','height'=>'90')),
+				'/img/wvbox.loadblance.mini',
 				array('escape' => false)
 			);
 		?>
