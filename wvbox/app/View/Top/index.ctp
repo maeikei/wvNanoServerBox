@@ -26,6 +26,9 @@
 				?>
 			</h4>
 		</h3>
+		<h3 class="top_index_special">低価格
+			<h4 class="top_index_special_details">暫定的価格１万２千円。</h4>
+		</h3>
 		<h3 class="top_index_special">Ubuntuサーバー
 			<h4 class="top_index_special_details">便利apt-getコマンドより、豊かなOSSを入れられる。</h4>
 			<h4 class="top_index_special_details">必要なパッケージに応じてカスタマイズROMが提供できる。</h4>
@@ -40,6 +43,23 @@
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('初期設定', true), array('controller' => 'factorySetting', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('ROM焼き直し', true), array('controller' => 'ROMWriter', 'action' => 'index'), array());
+				?>
+			</h4>
+		</h3>
+		<h3 class="top_index_special">運用サンプル
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('RailsOnRubyサーバー', true), array('controller' => 'rails', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('Cakephpサーバー', true), array('controller' => 'cakephp', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>
@@ -129,6 +149,7 @@
 </div>
 
 <div id="top_index_statement">
-	<h2>※市販アンドロイドテレビボックスより、改造した製品である。※</h2>
+	<h2>※本サイトは作成中。※</h2>
+	<!--h2>※市販アンドロイドテレビボックスより、改造した製品である。※</h2-->
 </div>
 

@@ -72,6 +72,11 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
+			<h5>
+				<?php 
+					echo $this->Text->autoLinkEmails('問い合わせ watorvapor@gmail.com');
+				?>
+			</h5>
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
 					'http://www.cakephp.org/',

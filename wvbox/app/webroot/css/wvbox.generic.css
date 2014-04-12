@@ -140,6 +140,13 @@ p {
 	padding: 6px 10px;
 	text-align: right;
 }
+#footer h5 {
+	clear: both;
+	padding: 6px 10px;
+	text-align: left;
+	float: left;
+}
+
 #header a, #footer a {
 	color: #fff;
 }
