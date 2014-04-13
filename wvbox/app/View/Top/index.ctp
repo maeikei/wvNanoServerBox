@@ -47,7 +47,7 @@
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('ROM焼き直し', true), array('controller' => 'ROMWriter', 'action' => 'index'), array());
+					echo $this->Html->link(__('ROM焼き直し', true), array('controller' => 'romWriter', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>

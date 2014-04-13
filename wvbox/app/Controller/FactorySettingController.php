@@ -33,4 +33,8 @@ App::uses('Controller', 'Controller');
 class FactorySettingController extends AppController {
 	public function index() {
 	}
+	public function usbkeyboard_hdmi() {
+	}
+	public function lan_ssh() {
+	}
 }
