@@ -32,10 +32,18 @@
 		<h3 class="top_index_special">Ubuntuサーバー
 			<h4 class="top_index_special_details">便利apt-getコマンドより、豊かなOSSを入れられる。</h4>
 			<h4 class="top_index_special_details">必要なパッケージに応じてカスタマイズROMが提供できる。</h4>
-			<h4 class="top_index_special_details">ソーシャルネットより技術サーポート。</h4>
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('パッケージリスト', true), array('controller' => 'showPackage', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">ソーシャルネットより技術サーポート。</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('helpbook（作成中）', true), 
+						'http://www.watorvapor.com/helpbook', 
+						array('target' => '_blank', 'escape' => false)
+						);
 				?>
 			</h4>
 		</h3>

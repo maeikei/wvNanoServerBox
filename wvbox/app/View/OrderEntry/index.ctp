@@ -1,7 +1,7 @@
 <?php echo $this->Html->css('orderEntry.index'); ?> 
 
 <div class="shop_list">
-準備中...　12,000円
+2014/04/15開店
 <?php
 	echo $this->Html->image("yahoo.shopping.icon",
 		array('url' => 'http://store.shopping.yahoo.co.jp/watorvapor')
