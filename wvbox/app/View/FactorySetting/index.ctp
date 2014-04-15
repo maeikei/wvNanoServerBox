@@ -2,8 +2,8 @@
 <div id="factory_index_warning">
 <h2>
 初期アカウントと暗証番号が共通のため。
-<p/>
-インタネットのサービスを公開する前に、必ず設定してください。
+インタネットのサービスを公開する前に、
+必ず設定してください。
 </h2>
 </div>
 
@@ -12,10 +12,10 @@
 <h2>
 本ページ適用範囲：
 <h3>
-本製品購入、初めての設定。
+本製品を購入頂いたあとはじめ使用とき。
 </h3>
 <h3>
-ROM書き込み
+出荷時のROMを書きこんだとき。
 </h3>
 </h2>
 </div>
@@ -41,7 +41,7 @@ ROM書き込み
 <h3>
 	<?php
 		echo $this->Html->link(__('有線LAN＋SSHクライアントパソコンを使って、設定。', true), 
-		array('controller' => 'factorySetting', 'action' => 'usbkeyboard_hdmi'), array());
+		array('controller' => 'factorySetting', 'action' => 'lan_ssh'), array());
 	?>
 </h3>
 <h3>

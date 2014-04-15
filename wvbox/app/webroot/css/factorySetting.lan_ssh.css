@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#harware {
+	margin-left:5px;
+	border-width: 10px;
+	border-style: groove;
+	padding: 3px;
+	margin: 5px;
+	min-height:200px;
+}
+
+
+#harware_list {
+	float:left;
+}
+
+#harware_list h3 {
+	margin-left:5px;
+}
+
+#harware_image {
+	margin-left:40px;
+	float:left;
+}
+
+#manual {
+	margin-top:60px;
+	margin-left:15px;
+}
+
+#manual h3 {
+	margin-left:15px;
+}
+#manual h4 {
+	margin-left:30px;
+}
+#manual h5 {
+	margin-left:30px;
+}
+#manual h6{
+	margin-top:0px;
+	margin-left:45px;
+}
+
+#manual img {
+	margin-left:45px;
+}

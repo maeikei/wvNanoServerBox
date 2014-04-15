@@ -8,7 +8,7 @@
 				平均消費電力２～３ワット。
 			</h4>
 			<h4 class="top_index_special_details">
-				一日のコスト１～２円ぐらい。
+				一日のコスト１～２円。
 			</h4>
 		</h3>
 		<h3 class="top_index_special">ナノ＋高性能
@@ -30,8 +30,8 @@
 			<h4 class="top_index_special_details">価格１万２千円。</h4>
 		</h3>
 		<h3 class="top_index_special">Ubuntuサーバー
-			<h4 class="top_index_special_details">便利apt-getコマンドより、自由にOSSを入れられる。</h4>
-			<h4 class="top_index_special_details">必要なパッケージに応じてカスタマイズROMが提供できる。</h4>
+			<h4 class="top_index_special_details">apt-getコマンドよりOSS自由に利用。</h4>
+			<h4 class="top_index_special_details">サービスプリインストールROMが提供。</h4>
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('パッケージリスト', true), array('controller' => 'showPackage', 'action' => 'index'), array());
@@ -62,7 +62,7 @@
 		<h3 class="top_index_special">運用サンプル
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('RubyOnRailsサーバー', true), array('controller' => 'rails', 'action' => 'index'), array());
+					echo $this->Html->link(__('RoRサーバー', true), array('controller' => 'rails', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
@@ -77,7 +77,7 @@
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('ダイナミックDNSのIP自動更新', true), array('controller' => 'dynamicDNS', 'action' => 'index'), array());
+					echo $this->Html->link(__('ダイナミックDNSの自動更新', true), array('controller' => 'dynamicDNS', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>
