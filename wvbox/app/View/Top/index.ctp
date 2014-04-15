@@ -13,8 +13,8 @@
 		</h3>
 		<h3 class="top_index_special">ナノ＋高性能
 			<h4 class="top_index_special_details">クアッドコア1.6 GHZプロセス。</h4>
-			<h4 class="top_index_special_details">２GBバイトDDR３。</h4>
-			<h4 class="top_index_special_details">８GBバイトフラッシュ領域。</h4>
+			<h4 class="top_index_special_details">２GバイトDDR３。</h4>
+			<h4 class="top_index_special_details">８Gバイトフラッシュ領域。</h4>
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('ハードウェア情報', true), array('controller' => 'tryLinux', 'action' => 'index'), array());
