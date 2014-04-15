@@ -5,16 +5,16 @@
 	<div id="top_index_guild">
 		<h3 class="top_index_special">エコ
 			<h4 class="top_index_special_details">
-				平均消費電力は２～３ワット。
+				平均消費電力２～３ワット。
 			</h4>
 			<h4 class="top_index_special_details">
-				一日のコストは１～２円ぐらい。
+				一日のコスト１～２円ぐらい。
 			</h4>
 		</h3>
 		<h3 class="top_index_special">ナノ＋高性能
 			<h4 class="top_index_special_details">クアッドコア1.6 GHZプロセス。</h4>
-			<h4 class="top_index_special_details">２GBバイトDDR３。</h4>
-			<h4 class="top_index_special_details">８GBバイトフラッシュ領域。</h4>
+			<h4 class="top_index_special_details">２GバイトDDR３。</h4>
+			<h4 class="top_index_special_details">８Gバイトフラッシュ領域。</h4>
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('ハードウェア情報', true), array('controller' => 'tryLinux', 'action' => 'index'), array());
@@ -27,10 +27,10 @@
 			</h4>
 		</h3>
 		<h3 class="top_index_special">低価格
-			<h4 class="top_index_special_details">暫定的価格１万２千円。</h4>
+			<h4 class="top_index_special_details">価格１万２千円。</h4>
 		</h3>
 		<h3 class="top_index_special">Ubuntuサーバー
-			<h4 class="top_index_special_details">便利apt-getコマンドより、豊かなOSSを入れられる。</h4>
+			<h4 class="top_index_special_details">便利apt-getコマンドより、自由にOSSを入れられる。</h4>
 			<h4 class="top_index_special_details">必要なパッケージに応じてカスタマイズROMが提供できる。</h4>
 			<h4 class="top_index_special_details">
 				<?php
@@ -62,7 +62,7 @@
 		<h3 class="top_index_special">運用サンプル
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('RailsOnRubyサーバー', true), array('controller' => 'rails', 'action' => 'index'), array());
+					echo $this->Html->link(__('RubyOnRailsサーバー', true), array('controller' => 'rails', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
@@ -72,7 +72,7 @@
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('nginxロードバランスのアプリケーションノード', true), array('controller' => 'loadBlance', 'action' => 'index'), array());
+					echo $this->Html->link(__('nginxロードバランスのノード', true), array('controller' => 'loadBlance', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
