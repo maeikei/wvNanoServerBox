@@ -37,7 +37,11 @@
 #manual h5 {
 	margin-left:30px;
 }
-#manual h6{
+#manual h6 {
+	margin-top:0px;
+	margin-left:45px;
+}
+#manual pre {
 	margin-top:0px;
 	margin-left:45px;
 }
