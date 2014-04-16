@@ -10,6 +10,9 @@
 			<h4 class="top_index_special_details">
 				一日のコスト１～２円。
 			</h4>
+			<h4 class="top_index_special_details">
+				ファンレス騒音0dB。
+			</h4>
 		</h3>
 		<h3 class="top_index_special">ナノ＋高性能
 			<h4 class="top_index_special_details">クアッドコア1.6 GHZプロセス。</h4>
