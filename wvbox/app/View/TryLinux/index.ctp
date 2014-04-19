@@ -53,6 +53,15 @@
 <h3>
 <pre>
 <?php 
+	echo `mount `;
+?>
+</pre>
+</h3>
+
+
+<h3>
+<pre>
+<?php 
 	echo `ps -ax`;
 ?>
 </pre>
