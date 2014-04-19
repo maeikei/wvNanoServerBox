@@ -57,9 +57,9 @@ HDMIモニターまたテレビ。
 
 <h3>
 新規ユーザー追加。
-	<h4>新アカウント作成【sudo useradd -m yourname】</h4>
-	<h4>パスワード変更【sudo passwd yourname】</h4>
-	<h4>管理権限付き【sudo adduser -a yourname sudo】</h4>
+	<h4>新アカウント作成【useradd -m yourname】</h4>
+	<h4>パスワード変更【passwd yourname】</h4>
+	<h4>管理権限付き【adduser -a yourname sudo】</h4>
 	<?php 
 		echo $this->Html->link(
 			$this->Html->image('wvbox.initsetting.ssh.account.add',array('width'=>'240','height'=>'180')),
@@ -70,8 +70,8 @@ HDMIモニターまたテレビ。
 </h3>
 
 <h3>
-初期アカウント削除。
-	<h4>新アカウント作成【sudo userdel -r wator】</h4>
+初期共通アカウント削除。
+	<h4>削除【userdel -r wator】</h4>
 	<?php 
 		echo $this->Html->link(
 			$this->Html->image('wvbox.initsetting.ssh.account.delete',array('width'=>'240','height'=>'180')),
@@ -79,7 +79,7 @@ HDMIモニターまたテレビ。
 			array('escape' => false)
 		);
 	?>
-	<h4>※初期アカウントでログインが出来ないことを確認してください。</h4>
+	<h4>※初期共通アカウントでログインが出来ないことを確認してください。</h4>
 </h3>
 
 
@@ -104,8 +104,7 @@ iface wlan0 inet dhcp
 	
 	</pre>
 </h3>
-<h4>再起動する【sudo reboot】</h4>
-<h4>再度SSHでログインして、</h4>
+<h4>再起動する【reboot】</h4>
 </div>
 
 <h2>
