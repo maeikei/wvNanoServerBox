@@ -25,7 +25,7 @@
 設定方法
 <h3>
 	<?php
-		echo $this->Html->link(__('USBキーボード＋HDMI対応モニターまたはテレビを使って、設定。', true), 
+		echo $this->Html->link(__('USBキーボード＋HDMIモニターまたはテレビ。', true), 
 		array('controller' => 'factorySetting', 'action' => 'usbkeyboard_hdmi'), array());
 	?>
 </h3>
@@ -40,7 +40,7 @@
 </h3>
 <h3>
 	<?php
-		echo $this->Html->link(__('有線LAN＋SSHクライアントパソコンを使って、設定。', true), 
+		echo $this->Html->link(__('有線LAN＋SSHクライアントパソコン。', true), 
 		array('controller' => 'factorySetting', 'action' => 'lan_ssh'), array());
 	?>
 </h3>

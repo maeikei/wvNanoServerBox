@@ -62,8 +62,22 @@ HDMIモニターまたテレビ。
 	<h4>管理権限付き【adduser -a yourname sudo】</h4>
 	<?php 
 		echo $this->Html->link(
-			$this->Html->image('wvbox.initsetting.ssh.account.add',array('width'=>'240','height'=>'180')),
-			'/img/wvbox.initsetting.ssh.account.add',
+			$this->Html->image('wvbox.initsetting.hdmi.useradd',array('width'=>'240','height'=>'180')),
+			'/img/wvbox.initsetting.hdmi.useradd',
+			array('escape' => false)
+		);
+	?>
+	<?php 
+		echo $this->Html->link(
+			$this->Html->image('wvbox.initsetting.hdmi.passwd',array('width'=>'240','height'=>'180')),
+			'/img/wvbox.initsetting.hdmi.passwd',
+			array('escape' => false)
+		);
+	?>
+	<?php 
+		echo $this->Html->link(
+			$this->Html->image('wvbox.initsetting.hdmi.add.sudo',array('width'=>'240','height'=>'180')),
+			'/img/wvbox.initsetting.hdmi.add.sudo',
 			array('escape' => false)
 		);
 	?>
@@ -74,8 +88,8 @@ HDMIモニターまたテレビ。
 	<h4>削除【userdel -r wator】</h4>
 	<?php 
 		echo $this->Html->link(
-			$this->Html->image('wvbox.initsetting.ssh.account.delete',array('width'=>'240','height'=>'180')),
-			'/img/wvbox.initsetting.ssh.account.delete',
+			$this->Html->image('wvbox.initsetting.hdmi.delete.user',array('width'=>'240','height'=>'180')),
+			'/img/wvbox.initsetting.hdmi.delete.user',
 			array('escape' => false)
 		);
 	?>
