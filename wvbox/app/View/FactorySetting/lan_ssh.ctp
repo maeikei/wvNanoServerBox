@@ -7,13 +7,13 @@
 <div id="harware">
 <div id="harware_list">
 <h3>
-sshクライアントソフトウェアを持つパソコン。
+sshログイン可能パソコン。
 </h3>
 <h3>
-　　・Window系なら例えばTera Term
+　　・Window系なら、Tera Term。
 </h3>
 <h3>
-　　・Unix系なら例えばOpenSSH Client
+　　・Unix系なら、OpenSSH Client
 </h3>
 <h3>
 ルーター、DNS機能あり。
@@ -123,8 +123,8 @@ SSHで本製品にログインする。
 </h3>
 
 <h3>
-初期アカウント削除。
-	<h4>新アカウント作成【sudo userdel -r wator】</h4>
+共通アカウント削除。
+	<h4>削除【sudo userdel -r wator】</h4>
 	<?php 
 		echo $this->Html->link(
 			$this->Html->image('wvbox.initsetting.ssh.account.delete',array('width'=>'240','height'=>'180')),
@@ -132,12 +132,12 @@ SSHで本製品にログインする。
 			array('escape' => false)
 		);
 	?>
-	<h4>※初期アカウントでログインが出来ないことを確認してください。</h4>
+	<h4>※共通アカウントでログインが出来ないことを確認してください。</h4>
 </h3>
 
 
 <h3>
-Eth固定IPアドレスに変更。
+Eth0固定IPアドレスに変更。
 	<h5>※MACアドレスが起動ごとに変わってしまいバッグあるため。</h5>
 	<h4>interfacesを編集【sudo vim /etc/network/interfaces】</h4>
 	<h5>※お客様自身のネットーワーク環境に合わせてください。</h5>
