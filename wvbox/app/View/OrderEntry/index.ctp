@@ -9,14 +9,6 @@
 ?>
 </div>
 
-<div class="shop_list">
-準備中...　13,000円
-<?php
-	echo $this->Html->image("amazon.shopping.icon",
-		array('url' => 'http://www.amazon.co.jp/')
-		);
-?>
-</div>
 
 <div class="shop_list">
 準備中...　12,000円
