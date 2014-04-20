@@ -1,21 +1,27 @@
 @charset "utf-8";
-#factory_index_warning {
-	margin-left:15px;
+
+#index_warning {
 	text-align:center;
-	font-size:20px;
+}
+.index_list h2{
+	margin-left:15px;
+}
+.index_list h3{
+	margin-left:15px;
+}
+.index_list h4 {
+	margin-left:30px;
 }
 
-.factory_index_list h2{
-	margin-left:15px;
+.index_list h4 a {
 }
-.factory_index_list h3{
+
+.index_list h5 {
 	margin-left:45px;
 }
-.factory_index_list h3 a {
-	margin-left:0px;
-}
 
-.factory_index_list h3 img{
+
+.index_list img{
 	margin-left:45px;
 }
 
