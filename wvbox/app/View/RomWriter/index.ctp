@@ -21,7 +21,9 @@
 	Rockchip Batch Tool v1.7.zipの解凍
 </h4>
 <h3>
-	カスタマイズROMの一覧
+	<?php
+		echo $this->Html->link(__('カスタマイズROMの一覧', true), array('controller' => 'showRom', 'action' => 'index'), array());
+	?>
 </h3>
 
 
@@ -153,6 +155,14 @@ PCのUSBディバイス音聞こえるまで押し続ける。
 
 </div>
 
+<h2>
+	ここまでROMの書き込み完了
+	<p/>
+	<?php
+		echo $this->Html->link(__('初期設定をしくてください', true), array('controller' => 'factorySetting', 'action' => 'index'), array());
+	?>
+	
+</h2>
 
 
 

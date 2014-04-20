@@ -34,10 +34,15 @@
 		</h3>
 		<h3 class="top_index_special">Ubuntuサーバー
 			<h4 class="top_index_special_details">apt-getコマンドよりOSS自由に利用。</h4>
-			<h4 class="top_index_special_details">サービスプリインストールROMが提供。</h4>
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('パッケージリスト', true), array('controller' => 'showPackage', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">サービスプリインストールROMが提供。</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('カスタマイズROMの一覧', true), array('controller' => 'showRom', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">ソーシャルネットより技術サーポート。</h4>
