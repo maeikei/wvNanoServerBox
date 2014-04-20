@@ -1,58 +1,37 @@
-<?php echo $this->Html->css('factorySetting.index'); ?> 
-<div id="factory_index_warning">
+<?php echo $this->Html->css('romWriter.index'); ?> 
 <h2>
-初期アカウントと暗証番号が共通のため。
-インタネットのサービスを公開する前に、
-必ず設定してください。
+Rockchip社RK3188のSOCが使われるため、書き込みツールそのRockchip社のツールであること。
 </h2>
-</div>
 
-
-<div class="factory_index_list">
+<div class="index_list">
 <h2>
-本ページ適用範囲：
-<h3>
-本製品を購入頂いたあとはじめ使用とき。
-</h3>
-<h3>
-出荷時のROMを書きこんだとき。
-</h3>
-</h2>
-</div>
 
-<div class="factory_index_list">
-<h2>
-設定方法
 <h3>
+	ROM書き込み用のソフトウェア
+	<h4>
 	<?php
-		echo $this->Html->link(__('USBキーボード＋HDMIモニターまたはテレビ。', true), 
-		array('controller' => 'factorySetting', 'action' => 'usbkeyboard_hdmi'), array());
-	?>
+		echo $this->Html->link(__('Rockchip Batch Tool v1.7ダウンロード', true), 
+			'https://doc-04-9k-docs.googleusercontent.com/docs/securesc/tn011o0t3ujhljuebimgk3hsmlrspc2e/oqaa3iqi2rsi7suamrfpid2fgkk2stem/1397894400000/06985956154538132918/14220241389813467160/0Bz7DsmSftZA3Zk1obWc0dFI1VEk?h=16653014193614665626&e=download', 
+			array('target' => '_blank', 'escape' => false)
+			);
+		?>
+	</h4>
+	<h4>
+		Rockchip Batch Tool v1.7.zipの解凍
+	</h4>
 </h3>
+
+
 <h3>
-	<?php 
-		echo $this->Html->link(
-			$this->Html->image('wvbox.initsetting.usb_hdmi.items',array('width'=>'240','height'=>'180')),
-			'/img/wvbox.initsetting.usb_hdmi.items',
-			array('escape' => false)
-		);
-	?>
+	機器本体をROM書き込みモードへ切り替え
+	<h4>
+	</h4>
+	<h4>
+	</h4>
 </h3>
-<h3>
-	<?php
-		echo $this->Html->link(__('有線LAN＋SSHクライアントパソコン。', true), 
-		array('controller' => 'factorySetting', 'action' => 'lan_ssh'), array());
-	?>
-</h3>
-<h3>
-	<?php 
-		echo $this->Html->link(
-			$this->Html->image('wvbox.initsetting.lan_ssh.items',array('width'=>'240','height'=>'180')),
-			'/img/wvbox.initsetting.lan_ssh.items',
-			array('escape' => false)
-		);
-	?>
-</h3>
+
+
+
 </h2>
 </div>
 

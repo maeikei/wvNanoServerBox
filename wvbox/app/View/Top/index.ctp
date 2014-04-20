@@ -65,22 +65,27 @@
 		<h3 class="top_index_special">運用サンプル
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('RoRサーバー', true), array('controller' => 'rails', 'action' => 'index'), array());
+					echo $this->Html->link(__('Ruby On Rails', true), array('controller' => 'rails', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('Cakephpサーバー', true), array('controller' => 'cakephp', 'action' => 'index'), array());
+					echo $this->Html->link(__('CakePHP', true), array('controller' => 'cakephp', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('nginxロードバランスのノード', true), array('controller' => 'loadBlance', 'action' => 'index'), array());
+					echo $this->Html->link(__('ロードバランスのノード', true), array('controller' => 'loadBlance', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('ダイナミックDNSの自動更新', true), array('controller' => 'dynamicDNS', 'action' => 'index'), array());
+					echo $this->Html->link(__('DDNSで自宅サーバー公開', true), array('controller' => 'DDNSWeb', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('外付けHDDで簡易NAS', true), array('controller' => 'nasSamba', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>
