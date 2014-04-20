@@ -42,7 +42,7 @@
 			<h4 class="top_index_special_details">サービスプリインストールROMが提供。</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('カスタマイズROMの一覧', true), array('controller' => 'showRom', 'action' => 'index'), array());
+					echo $this->Html->link(__('カスタマイズROMの一覧', true), array('controller' => 'custRom', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">ソーシャルネットより技術サーポート。</h4>

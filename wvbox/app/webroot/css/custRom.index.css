@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+#index_warning {
+	text-align:center;
+}
+.index_list h2{
+	margin-left:15px;
+}
+.index_list h3{
+	margin-left:15px;
+}
+.index_list h4 {
+	margin-left:30px;
+}
+
+.index_list h4 a {
+}
+
+.index_list h5 {
+	margin-left:45px;
+}
+
+
+.index_list img{
+	margin-left:45px;
+}
+
+
+

@@ -22,7 +22,7 @@
 </h4>
 <h3>
 	<?php
-		echo $this->Html->link(__('カスタマイズROMの一覧', true), array('controller' => 'showRom', 'action' => 'index'), array());
+		echo $this->Html->link(__('カスタマイズROMの一覧', true), array('controller' => 'custRom', 'action' => 'index'), array());
 	?>
 </h3>
 
