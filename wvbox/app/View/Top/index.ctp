@@ -32,7 +32,7 @@
 		<h3 class="top_index_special">低価格
 			<h4 class="top_index_special_details">価格１万２千円。</h4>
 		</h3>
-		<h3 class="top_index_special">Ubuntuサーバー
+		<h3 class="top_index_special">Ubuntuサーバー(14.04 LTS)
 			<h4 class="top_index_special_details">apt-getコマンドよりOSS自由に利用。</h4>
 			<h4 class="top_index_special_details">
 				<?php
@@ -68,6 +68,9 @@
 			</h4>
 		</h3>
 		<h3 class="top_index_special">運用サンプル
+			<h4 class="top_index_special_details">
+				本サイト運用
+			</h4>
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('Ruby On Rails', true), array('controller' => 'rails', 'action' => 'index'), array());

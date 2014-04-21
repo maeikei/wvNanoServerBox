@@ -46,16 +46,19 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					<h3>塵（ちり）</h3>
 				</div>
 				<div class="header_navi_left_items">
+					<h3>起動@<?php echo `who -b | sed 's/system boot//g'`?>@</h3>
+				</div>
+			</div>
+			<div id="header_center_navi">
+			</div>
+			<div id="header_right_navi">
+				<div class="header_navi_right_items">
 					<?php
 						echo $this->Html->image("home.icon.jpg",
 							array('url' => array('controller' => 'top', 'action' => 'index'))
 							);
 					?>
 				</div>
-			</div>
-			<div id="header_center_navi">
-			</div>
-			<div id="header_right_navi">
 				<div class="header_navi_right_items">
 					<?php
 						echo $this->Html->image("order.icon.jpg",
