@@ -59,14 +59,41 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 							);
 					?>
 				</div>
-				<div class="header_navi_right_items">
-					<?php
-						echo $this->Html->image("order.icon.jpg",
-							array('url' => array('controller' => 'orderEntry', 'action' => 'index'))
-							);
-					?>
-				</div>
 			</div>
+		</div>
+		<div id="head_newline">
+			<div class="navi_shop_list">
+				<?php
+					echo $this->Html->image("yahoo.shopping.icon",
+						array('url' => 'http://store.shopping.yahoo.co.jp/watorvapor',
+							'width'=>'160','height'=>'160')
+						);
+				?>
+			</div>
+			<div class="navi_shop_list">
+				<?php
+					echo $this->Html->image("paypal.shop.gif",
+						array('url' => 'https://www.paypal.com','width'=>'160','height'=>'160')
+						);
+				?>
+				<div>準備中...</div>
+			</div>
+			<div class="navi_shop_list">
+				<?php
+					echo $this->Html->image("bitcoin.shop.jpg",
+						array('url' => 'http://www.bitcoin.co.jp/','width'=>'160','height'=>'160')
+						);
+				?>
+				<div>準備中...</div>
+			</div>
+				<div class="navi_shop_list">
+				<?php
+					echo $this->Html->image("litecoin.shop.jpg",
+						array('url' => 'https://litecoin.org/ja/','width'=>'160','height'=>'160')
+						);
+				?>
+				<div>準備中...</div>
+			</div>			
 		</div>
 		<div id="content">
 

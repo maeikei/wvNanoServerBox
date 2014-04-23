@@ -151,6 +151,15 @@ p {
 	color: #fff;
 }
 
+#head_newline {
+	float:left;
+	margin-left:30px;
+} 
+.navi_shop_list {
+	float:left;
+	margin-left:40px;
+}
+
 /** containers **/
 div.form,
 div.index,

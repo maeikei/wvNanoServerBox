@@ -1,17 +1,39 @@
 <?php echo $this->Html->css('rails.index'); ?> 
 <h2>
 </h2>
-<h3>
-	Mysql
-</h3>
-<iframe src="http://www.watorvapor.com:3001" width="750" height="500"></iframe> 
 
+<div class="item_list">
 <h3>
-	Postgresql
+<?php 
+	echo $this->Html->link(
+		$this->Html->image('rails.mysql',array()),
+		'http://www.watorvapor.com:3110',
+		array('escape' => false)
+	);
+?>
 </h3>
-<iframe src="http://www.watorvapor.com:3002" width="750" height="500"></iframe> 
+</div>
 
+<div class="item_list">
 <h3>
-	Sqlite
+<?php 
+	echo $this->Html->link(
+		$this->Html->image('rails.postgresql',array()),
+		'http://www.watorvapor.com:3120',
+		array('escape' => false)
+	);
+?>
 </h3>
-<iframe src="http://www.watorvapor.com:3003" width="750" height="500"></iframe> 
+</div>
+
+<div class="item_list">
+<h3>
+<?php 
+	echo $this->Html->link(
+		$this->Html->image('rails.sqlite',array()),
+		'http://www.watorvapor.com:3100',
+		array('escape' => false)
+	);
+?>
+</h3>
+</div>

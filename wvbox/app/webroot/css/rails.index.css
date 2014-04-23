@@ -1,29 +1,7 @@
 @charset "utf-8";
 
-#index_warning {
+.item_list {
 	text-align:center;
+	top-margin:40px;
 }
-.index_list h2{
-	margin-left:15px;
-}
-.index_list h3{
-	margin-left:15px;
-}
-.index_list h4 {
-	margin-left:30px;
-}
-
-.index_list h4 a {
-}
-
-.index_list h5 {
-	margin-left:45px;
-}
-
-
-.index_list img{
-	margin-left:45px;
-}
-
-
 
