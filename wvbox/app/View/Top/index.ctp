@@ -78,7 +78,7 @@
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('CakePHP', true), array('controller' => 'cakephp', 'action' => 'index'), array());
+					echo $this->Html->link(__('CakePHP', true), 'http://www.watorvapor.com/cakephp/', array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">

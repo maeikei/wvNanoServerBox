@@ -1,6 +1,6 @@
 all:
-	cd ShowEnvSqlite && rails s&
-	cd ShowEnvMysql && rails s&
-	cd ShowEnvPostgresql && rails s&
+	cd ShowEnvSqlite && rails s -d &
+	cd ShowEnvMysql && rails s -d &
+	cd ShowEnvPostgresql && rails s -d &
 s:
 	ps -ax | grep rails
