@@ -7,7 +7,7 @@ ARM版unixBenchでは、マルチプロセッサ対応していないよう。
 下記のベンチマークは、一つコアの結果である。
 </h2-->
 <h2>
-AWSのEC2 m1. small m1.largeインスタンスの間
+AWSのEC2 m1.smallとm1.largeインスタンスの間
 </h2>
 
 <h3>
