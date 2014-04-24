@@ -93,7 +93,7 @@
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('外付けHDDで簡易NAS', true), array('controller' => 'nasSamba', 'action' => 'index'), array());
+					echo $this->Html->link(__('外付けHDDで簡易NAS', true), array('controller' => 'NAS', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>
@@ -183,6 +183,14 @@
 			echo $this->Html->link(
 				$this->Html->image('wvbox.loadblance.pico',array('width'=>'120','height'=>'90')),
 				'/img/wvbox.loadblance.mini',
+				array('escape' => false)
+			);
+		?>
+		<p></p>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('wvbox.loadblance.hybrid.pico',array('width'=>'120','height'=>'90')),
+				'/img/wvbox.loadblance.hybrid',
 				array('escape' => false)
 			);
 		?>
