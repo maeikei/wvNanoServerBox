@@ -14,7 +14,7 @@
 </h3>
 </div>
 
-<div class="item_list">
+<!--div class="item_list">
 <h3>
 <?php 
 	echo $this->Html->link(
@@ -24,7 +24,7 @@
 	);
 ?>
 </h3>
-</div>
+</div-->
 
 <div class="item_list">
 <h3>
