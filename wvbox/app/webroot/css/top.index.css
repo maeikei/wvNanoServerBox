@@ -21,6 +21,39 @@
 .top_index_special_details {
 	margin-left:30px;
 }
+
+#sample_seprator {
+	margin-left:15px;
+	margin-top:15px;
+	border-top: thick gray outset;
+	/*position:relative;*/
+	/*border: 1px solid #00ff00;*/
+}
+
+
+#sample_frame {
+	margin-left:15px;
+	/*position:relative;*/
+	overflow:auto;
+	/*border: 1px solid #ff0000;*/
+}
+
+.sample_item {
+	margin-left:15px;
+	float:left;
+	/*position:relative;*/
+	/*border: 1px solid #0000ff;*/
+}
+.sample_item  h4{
+	float:top;
+	text-align: center;
+}
+
+.sample_item  img{
+	float:top;
+}
+
+
 #top_index_statement {
 	/*position:relative;*/
 	/*border: 1px solid #ffff00;*/
@@ -29,3 +62,4 @@
 	text-align: center;
 	/*border: 1px solid #ff00ff;*/
 }
+

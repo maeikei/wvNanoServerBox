@@ -62,24 +62,30 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
+		'datasource' => 'Database/Postgres',
+		'persistent' => true,
+		'host' => '192.168.0.7',
+		'port' => '5432',
+		'login' => 'helpbox',
+		'password' => 'helpbox',
+		'database' => 'helpbox_db',
+		'schema' => 'public',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 
 	public $test = array(
-		'datasource' => 'Database/Mysql',
+		'datasource' => 'Database/Postgres',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'host' => '192.168.0.7',
+		'port' => '5432',
+		'login' => 'helpbox',
+		'password' => 'helpbox',
+		'database' => 'test_helpbox_db',
+		'schema' => 'public',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
-}
+
+	
+	}

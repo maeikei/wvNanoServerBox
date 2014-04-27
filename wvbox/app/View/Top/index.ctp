@@ -20,7 +20,12 @@
 			<h4 class="top_index_special_details">８Gバイトフラッシュ領域。</h4>
 			<h4 class="top_index_special_details">
 				<?php
-					echo $this->Html->link(__('ハードウェア情報', true), array('controller' => 'tryLinux', 'action' => 'index'), array());
+					echo $this->Html->link(__('ハードウェアスペック', true), array('controller' => 'hardware', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">
+				<?php
+					echo $this->Html->link(__('システム情報', true), array('controller' => 'tryLinux', 'action' => 'index'), array());
 				?>
 			</h4>
 			<h4 class="top_index_special_details">
@@ -64,36 +69,6 @@
 			<h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('ROM焼き直し', true), array('controller' => 'romWriter', 'action' => 'index'), array());
-				?>
-			</h4>
-		</h3>
-		<h3 class="top_index_special">運用サンプル
-			<h4 class="top_index_special_details">
-				本サイト運用
-			</h4>
-			<h4 class="top_index_special_details">
-				<?php
-					echo $this->Html->link(__('Ruby On Rails', true), array('controller' => 'rails', 'action' => 'index'), array());
-				?>
-			</h4>
-			<h4 class="top_index_special_details">
-				<?php
-					echo $this->Html->link(__('CakePHP', true), 'http://www.watorvapor.com/cakephp/', array());
-				?>
-			</h4>
-			<h4 class="top_index_special_details">
-				<?php
-					echo $this->Html->link(__('ロードバランスのノード', true), array('controller' => 'loadBlance', 'action' => 'index'), array());
-				?>
-			</h4>
-			<h4 class="top_index_special_details">
-				<?php
-					echo $this->Html->link(__('DDNSで自宅サーバー公開', true), array('controller' => 'DDNSWeb', 'action' => 'index'), array());
-				?>
-			</h4>
-			<h4 class="top_index_special_details">
-				<?php
-					echo $this->Html->link(__('外付けHDDで簡易NAS', true), array('controller' => 'NAS', 'action' => 'index'), array());
 				?>
 			</h4>
 		</h3>
@@ -196,6 +171,73 @@
 		?>
 	</div>
 </div>
+
+<div id="sample_seprator">
+<h3>運用サンプル</h3>
+</div>
+<div id="sample_frame">
+	<div class="sample_item">
+		<h4>本サイト運用</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('wvbox.product.pico',array('width'=>'120','height'=>'90')),
+				array('controller' => 'top', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
+	<div class="sample_item">
+		<h4>Ruby On Rails</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('rails.rails',array('width'=>'120','height'=>'90')),
+				array('controller' => 'rails', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
+	<div class="sample_item">
+		<h4>CakePHP</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('cakephp.icon',array('width'=>'120','height'=>'90')),
+				'http://www.watorvapor.com/cakephp/',
+				array('escape' => false)
+			);
+		?>
+	</div>
+	<div class="sample_item">
+		<h4>ロードバランスのノード</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('wvbox.loadblance.icon',array('width'=>'120','height'=>'90')),
+				array('controller' => 'loadBlance', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
+	<div class="sample_item">
+		<h4>DDNSで自宅サーバー公開</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('ddns.icon',array('width'=>'120','height'=>'90')),
+				array('controller' => 'DDNSWeb', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
+	<div class="sample_item">
+		<h4>外付けHDDで簡易NAS</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('nas.icon',array('width'=>'120','height'=>'90')),
+				array('controller' => 'NAS', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
+</div>
+
 
 <div id="top_index_statement">
 	<!--h2>※本サイトは作成中。※</h2-->
