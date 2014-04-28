@@ -175,13 +175,24 @@
 <div id="sample_seprator">
 <h3>運用サンプル</h3>
 </div>
-<div id="sample_frame">
+
+<div class="sample_frame">
 	<div class="sample_item">
 		<h4>本サイト運用</h4>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.product.pico',array('width'=>'120','height'=>'90')),
 				array('controller' => 'top', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
+	<div class="sample_item">
+		<h4>ソーシャルロボット</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('sobot.icon',array('width'=>'120','height'=>'90')),
+				'http://www.watorvapor.com/sobot/',
 				array('escape' => false)
 			);
 		?>
