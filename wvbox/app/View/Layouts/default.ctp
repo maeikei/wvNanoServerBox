@@ -46,7 +46,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					<h3>塵（ちり）</h3>
 				</div>
 				<div class="header_navi_left_items">
-					<h3>起動@<?php echo `who -b | sed 's/system boot//g'`?>@</h3>
+					<!--h3>起動@<?php echo `who -b | sed 's/system boot//g'`?>@</h3-->
+					<h3>起動@<?php echo `uptime -p | sed 's/ //g'| sed 's/up//g' | sed 's/days/日/g' | sed 's/hours/時間/g'| sed 's/minutes/分/g'`?>@</h3>
 				</div>
 			</div>
 			<div id="header_center_navi">
