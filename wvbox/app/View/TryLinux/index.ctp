@@ -62,10 +62,19 @@
 <h3>
 <pre>
 <?php 
-	echo `ps -ax`;
+	echo `top -b -n1 | tee top.log && cat top.log`;
 ?>
 </pre>
 </h3>
+
+
+<!--h3>
+<pre>
+<?php 
+	echo `ps -ax`;
+?>
+</pre>
+</h3-->
 
 <h3>
 <pre>
