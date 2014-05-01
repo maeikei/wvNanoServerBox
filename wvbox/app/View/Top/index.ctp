@@ -173,7 +173,7 @@
 </div>
 
 <div id="sample_seprator">
-<h3>運用サンプル</h3>
+<h3>運用サンプル(繁殖中)</h3>
 </div>
 
 <div class="sample_frame">

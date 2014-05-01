@@ -66,12 +66,12 @@ class DATABASE_CONFIG {
 		'persistent' => true,
 		'host' => '192.168.0.7',
 		'port' => '5432',
-		'login' => 'helpbox',
-		'password' => 'helpbox',
-		'database' => 'helpbox_db',
+		'login' => 'cakephp',
+		'password' => 'cakephp',
+		'database' => 'cakephp_db_release',
 		'schema' => 'public',
 		'prefix' => '',
-		'encoding' => 'utf8',
+		//'encoding' => 'utf8',
 	);
 
 	public $test = array(
@@ -79,12 +79,12 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => '192.168.0.7',
 		'port' => '5432',
-		'login' => 'helpbox',
-		'password' => 'helpbox',
-		'database' => 'test_helpbox_db',
+		'login' => 'cakephp',
+		'password' => 'cakephp',
+		'database' => 'cakephp_db_test',
 		'schema' => 'public',
 		'prefix' => '',
-		'encoding' => 'utf8',
+		//'encoding' => 'utf8',
 	);
 
 	
