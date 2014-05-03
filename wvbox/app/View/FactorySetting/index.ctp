@@ -25,10 +25,11 @@
 設定方法
 <h3>
 	<?php
-		echo $this->Html->link(__('USBキーボード＋HDMIモニターまたはテレビ。', true), 
+		echo $this->Html->link(__('USBキーボード＋HDMIモニター', true), 
 		array('controller' => 'factorySetting', 'action' => 'usbkeyboard_hdmi'), array());
 	?>
 </h3>
+<h4>※一部のテレビもできますが、対応出来るテレビのリスト未作成。</h4>
 <h3>
 	<?php 
 		echo $this->Html->link(
