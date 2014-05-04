@@ -36,12 +36,12 @@ AWSのEC2 m1.smallとm1.largeインスタンスの間
 </h3>
 <pre>
 ~/workspace/temp_unixbench/UnixBench$
-./Run -c 4 | sudo tee /opt/pallarell.Unix.Bench.Result.log
+./Run -c 4 | tee ~/workspace/wvNanoServerBox/wvbox/app/webroot/files/pallarell.Unix.Bench.Result.log
 </pre>
 
 <pre>
 <?php 
-	echo `cat /opt/pallarell.Unix.Bench.Result.log`;
+	echo `cat ./files/pallarell.Unix.Bench.Result.log`;
 ?>
 </pre>
 
@@ -51,12 +51,12 @@ AWSのEC2 m1.smallとm1.largeインスタンスの間
 </h3>
 <pre>
 ~/workspace/temp_unixbench/UnixBench$
-./Run | sudo tee /opt/Unix.Bench.Result.log
+./Run | tee ~/workspace/wvNanoServerBox/wvbox/app/webroot/files/Unix.Bench.Result.log
 </pre>
 
 <pre>
 <?php 
-	echo `cat /opt/Unix.Bench.Result.log`;
+	echo `cat ./files/single.core.Unix.Bench.Result.log`;
 ?>
 </pre>
 
