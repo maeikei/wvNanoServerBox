@@ -5,11 +5,11 @@ all:
 
 mount:
 	mkdir -p ./wvbox/app/tmp/
-	sudo mount tmpfs ./wvbox/app/tmp/ -t tmpfs -o size=128m
+	sudo mount tmpfs ./wvbox/app/tmp/ -t tmpfs -o size=32m
 	sudo chown www-data -R ./wvbox/app/tmp/
 	
 	mkdir -p ./cakephp/app/tmp/
-	sudo mount tmpfs ./cakephp/app/tmp/ -t tmpfs -o size=128m
+	sudo mount tmpfs ./cakephp/app/tmp/ -t tmpfs -o size=32m
 	sudo chown www-data -R ./cakephp/app/tmp/
 
 	
