@@ -50,6 +50,7 @@ HDMIモニター。
 			array('escape' => false)
 		);
 	?>
+	<!--
 	<h4>USBマイクロから給電</h4>
 	<?php 
 		echo $this->Html->link(
@@ -58,6 +59,7 @@ HDMIモニター。
 			array('escape' => false)
 		);
 	?>
+	-->
 </h3>
 
 <h3>

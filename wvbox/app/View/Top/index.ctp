@@ -68,6 +68,11 @@
 			</h4>
 			<h4 class="top_index_special_details">
 				<?php
+					echo $this->Html->link(__('WIFI設定', true), array('controller' => 'wifi', 'action' => 'index'), array());
+				?>
+			</h4>
+			<h4 class="top_index_special_details">
+				<?php
 					echo $this->Html->link(__('ROM焼き直し', true), array('controller' => 'romWriter', 'action' => 'index'), array());
 				?>
 			</h4>
@@ -95,7 +100,6 @@
 				array('escape' => false)
 			);
 		?>
-		<p></p>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.size.top.pico',array('width'=>'120','height'=>'90')),
@@ -103,6 +107,7 @@
 				array('escape' => false)
 			);
 		?>
+		<p></p>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.size.side.pico',array('width'=>'120','height'=>'90')),
@@ -117,7 +122,6 @@
 				array('escape' => false)
 			);
 		?>
-		<p></p>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.size.bottom.pico',array('width'=>'120','height'=>'90')),
@@ -132,6 +136,7 @@
 				array('escape' => false)
 			);
 		?>
+		<p></p>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.linux.ram.pico',array('width'=>'120','height'=>'90')),
@@ -139,7 +144,6 @@
 				array('escape' => false)
 			);
 		?>
-		<p></p>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.linux.storage.pico',array('width'=>'120','height'=>'90')),

@@ -2,10 +2,11 @@
 
 
 <table border=4 align=center>
-	<caption>ナノARMサーバー　塵１世代</caption>
+	<caption>ナノARMサーバー　塵１</caption>
 	<tr align=center>
 		<td>Model No.</td>
 		<td>Chiri-1</td>
+		<td>ナノARMサーバー　塵１</td>
 	</tr>
 	<tr align=center>
 		<td rowspan=2 >CPU</td>

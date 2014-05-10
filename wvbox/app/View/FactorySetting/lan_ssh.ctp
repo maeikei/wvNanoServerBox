@@ -45,6 +45,7 @@ Lanケーブル
 			array('escape' => false)
 		);
 	?>
+	<!--
 	<h4>USBマイクロから給電</h4>
 	<?php 
 		echo $this->Html->link(
@@ -53,6 +54,7 @@ Lanケーブル
 			array('escape' => false)
 		);
 	?>
+	-->
 </h3>
 <h3>
 本製品が配布されるIPアドレスを調べる。
