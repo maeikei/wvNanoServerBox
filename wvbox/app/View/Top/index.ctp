@@ -211,6 +211,16 @@
 			);
 		?>
 	</div>
+	<div class="sample_item">
+		<h4>CIーJenkins</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('sub.proj.jenkins',array('width'=>'120','height'=>'90')),
+				'http://www.watorvapor.com/jenkins/',
+				array('escape' => false)
+			);
+		?>
+	</div>
 	<!--div class="sample_item">
 		<h4>APK App解析</h4>
 		<?php 
