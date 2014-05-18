@@ -33,4 +33,6 @@ App::uses('Controller', 'Controller');
 class TopController extends AppController {
 	public function index() {
 	}
+	public function architecture() {
+	}
 }

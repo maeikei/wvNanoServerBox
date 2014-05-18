@@ -186,7 +186,7 @@
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('wvbox.product.pico',array('width'=>'120','height'=>'90')),
-				array('controller' => 'top', 'action' => 'index'),
+				array('controller' => 'top', 'action' => 'architecture'),
 				array('escape' => false)
 			);
 		?>
