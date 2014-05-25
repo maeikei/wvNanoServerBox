@@ -192,12 +192,12 @@
 		?>
 	</div>
 	<div class="sample_item">
-		<h4>Hadoop 準備中</h4>
+		<h4>Hadoop</h4>
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('sub.proj.hadoop',array('width'=>'120','height'=>'90')),
-				'http://www.watorvapor.com/wvHadoop/',
-				array('escape' => false)
+				'http://www.watorvapor.com:50070/',
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
