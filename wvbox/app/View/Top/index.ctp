@@ -51,14 +51,14 @@
 				?>
 			</h4>
 			<h4 class="top_index_special_details">ソーシャルネットより技術サーポート。</h4>
-			<h4 class="top_index_special_details">
+			<!--h4 class="top_index_special_details">
 				<?php
 					echo $this->Html->link(__('helpbook（作成中）', true), 
 						'http://www.watorvapor.com/helpbook', 
 						array('target' => '_blank', 'escape' => false)
 						);
 				?>
-			</h4>
+			</h4-->
 		</h3>
 		<h3 class="top_index_special">クイックガイドライン
 			<h4 class="top_index_special_details">
@@ -207,7 +207,7 @@
 			echo $this->Html->link(
 				$this->Html->image('sobot.icon',array('width'=>'120','height'=>'90')),
 				'http://www.watorvapor.com/sobot/',
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
@@ -217,7 +217,7 @@
 			echo $this->Html->link(
 				$this->Html->image('sub.proj.jenkins',array('width'=>'120','height'=>'90')),
 				'http://www.watorvapor.com/jenkins/',
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
@@ -237,7 +237,7 @@
 			echo $this->Html->link(
 				$this->Html->image('rails.rails',array('width'=>'120','height'=>'90')),
 				array('controller' => 'rails', 'action' => 'index'),
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
@@ -247,7 +247,7 @@
 			echo $this->Html->link(
 				$this->Html->image('cakephp.icon',array('width'=>'120','height'=>'90')),
 				'http://www.watorvapor.com/cakephp/',
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
@@ -257,7 +257,7 @@
 			echo $this->Html->link(
 				$this->Html->image('wvbox.loadblance.icon',array('width'=>'120','height'=>'90')),
 				array('controller' => 'loadBlance', 'action' => 'index'),
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
@@ -267,7 +267,7 @@
 			echo $this->Html->link(
 				$this->Html->image('ddns.icon',array('width'=>'120','height'=>'90')),
 				array('controller' => 'DDNSWeb', 'action' => 'index'),
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
@@ -277,7 +277,7 @@
 			echo $this->Html->link(
 				$this->Html->image('nas.icon',array('width'=>'120','height'=>'90')),
 				array('controller' => 'NAS', 'action' => 'index'),
-				array('escape' => false)
+				array('escape' => false,'target' => '_blank')
 			);
 		?>
 	</div>
