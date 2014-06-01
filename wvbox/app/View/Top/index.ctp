@@ -196,7 +196,7 @@
 		<?php 
 			echo $this->Html->link(
 				$this->Html->image('sub.proj.hadoop',array('width'=>'120','height'=>'90')),
-				'http://www.watorvapor.com:50070/',
+				'http://www.watorvapor.com/wvHadoop',
 				array('escape' => false,'target' => '_blank')
 			);
 		?>
