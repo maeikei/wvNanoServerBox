@@ -221,6 +221,16 @@
 			);
 		?>
 	</div>
+	<div class="sample_item">
+		<h4>ウェブカメラ</h4>
+		<?php 
+			echo $this->Html->link(
+				$this->Html->image('sub.proj.webcam',array('width'=>'120','height'=>'90')),
+				array('controller' => 'webCam', 'action' => 'index'),
+				array('escape' => false)
+			);
+		?>
+	</div>
 	<!--div class="sample_item">
 		<h4>APK App解析</h4>
 		<?php 
